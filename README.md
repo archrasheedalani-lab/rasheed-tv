@@ -3,10 +3,30 @@
 An open-source screensaver, home screen and setup toolkit for Android TV / Google TV, in Arabic and
 English. Written from scratch; MIT licensed.
 
-> Status: **v0.1**. The screensaver page (`web/`) works in any browser, and the Android TV app (`android/`)
-> runs it as the TV's screensaver. The home screen and the debloat scripts are next: see [docs/PLAN.md](docs/PLAN.md).
+> Status: **v0.2.4**. A screensaver and a home screen for Android TV, with a settings panel for everything.
+> The debloat scripts are next: see [docs/PLAN.md](docs/PLAN.md).
 
-## Install on the TV
+## Install it on your TV (no computer needed)
+
+Works on Android TV and Google TV (Android 7 or newer): Sony, TCL, Hisense, Philips, Xiaomi boxes, Chromecast
+with Google TV, operator boxes… Not on Samsung (Tizen) or LG (webOS) TVs.
+
+1. On the TV, install **Downloader** (by AFTVnews) from the Play Store.
+2. Allow it to install apps: **Settings → Apps → Security & restrictions → Unknown sources → Downloader: on**
+   (on some TVs: **Settings → Privacy → Security → Install unknown apps**).
+3. Open Downloader, type the link to `RasheedTV.apk` from this repository's **Releases** page (it has the form
+   `https://github.com/<user>/rasheed-tv/releases/latest/download/RasheedTV.apk`), press **Go**, then **Install**.
+
+4. **Screensaver:** Settings → Device Preferences (or System) → **Screen saver** → **Rasheed TV screensaver**.
+5. **Settings:** open the **Rasheed TV** app: language, city, prayer method, cards, colours, photos…
+6. **Home screen (optional):** some TVs ask which home to use the first time you press Home; pick **Rasheed TV**.
+   Others need it set once from a computer with `adb`
+   (`adb shell cmd package set-home-activity com.rasheed.atvu/.HomeActivity`), or `scripts/home.sh on`.
+
+The shared app has no adhan recording (recordings belong to whoever made them): the adhan works when you build
+the app yourself with your own `web/audio/adhan.mp3` (below).
+
+## Build it and install it from your computer
 
 Needs Java 17, the Android SDK (platform 34) and Gradle 8.10 (here in `C:\Android`). In Git Bash:
 
@@ -122,3 +142,17 @@ Playfair Display (SIL Open Font License, via Google Fonts).
 ## License
 
 MIT, © 2026 Rasheed. See [LICENSE](LICENSE).
+
+## Releasing a new version
+
+1. Raise `versionCode` and `versionName` in `android/app/build.gradle`.
+2. Build the shareable file (no recordings, signed with the release key from `~/.rasheed-tv-signing/`):
+
+   ```bash
+   cd android && gradle assembleRelease
+   ```
+
+3. Attach it to a GitHub release as `RasheedTV.apk`, so the Downloader link above always gets the newest one.
+
+Keep `~/.rasheed-tv-signing/` (the key and its password) backed up somewhere safe: TVs only accept an update
+signed with the same key as the version they have.

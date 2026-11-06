@@ -14,3 +14,6 @@ backup/
 
 # Editor and assistant settings
 .claude/
+
+# Built app files (published as GitHub release assets, not in git)
+dist/

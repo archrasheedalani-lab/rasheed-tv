@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Android TV update by Rasheed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500&family=Noto+Naskh+Arabic:wght@500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="bg">
+  <div class="layer" id="bgA"></div>
+  <div class="layer" id="bgB"></div>
+  <div class="scrim"></div>
+</div>
+
+<main id="stage">
+  <header class="top">
+    <section class="dates">
+      <div class="big" id="hijri"></div>
+      <div class="small" id="greg"></div>
+      <div class="rule"></div>
+    </section>
+    <section class="weather">
+      <div class="big"><span id="temp"></span> <span id="cond"></span></div>
+      <div class="small" id="wxsub"></div>
+      <div class="rule"></div>
+    </section>
+  </header>
+
+  <section class="middle">
+    <div class="clockbox">
+      <div class="clock"><span id="ampm"></span><span id="time"></span></div>
+      <div class="tzline" id="tzline"></div>
+    </div>
+    <article class="card" id="card" hidden>
+      <h2 id="cardTitle"></h2>
+      <div id="cardBody"></div>
+    </article>
+  </section>
+
+  <footer class="bottom">
+    <div class="panel" id="prayerPanel">
+      <div class="label" id="prayerLabel"></div>
+      <div class="value" id="prayerValue"></div>
+      <div class="sub" id="prayerSub"></div>
+    </div>
+    <div class="panel countdowns" id="occList"></div>
+    <div class="panel" id="matchPanel">
+      <div class="label" id="matchLabel"></div>
+      <div class="value" id="matchValue"></div>
+      <div class="sub" id="matchSub"></div>
+    </div>
+  </footer>
+  <div class="caption" id="caption"></div>
+  <!-- Home screen only (?mode=home): the focused app's name and the apps row. -->
+  <section class="apps">
+    <div class="appTitle" id="appTitle"></div>
+    <div class="dock" id="dock"></div>
+  </section>
+</main>
+
+<section id="allApps" hidden>
+  <h2 id="allTitle"></h2>
+  <div class="grid" id="allGrid"></div>
+</section>
+
+<div id="adhanBar" hidden></div>
+<form id="settings" hidden></form>
+
+<script src="data/places.js"></script>
+<script src="data/hadith.js"></script>
+<script src="data/adhkar.js"></script>
+<script src="data/imam-ali.js"></script>
+<script src="data/photo-themes.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+<script src="js/settings-ui.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

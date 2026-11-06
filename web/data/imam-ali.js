@@ -1,0 +1,14 @@
+// Sayings of Imam Ali (AS), from Nahj al-Balagha. Numbers follow Subhi al-Salih's edition; other editions differ.
+// checked: false until someone qualified has compared the text and number with the printed book.
+window.IMAM_ALI = [
+  { ar: "قِيمَةُ كُلِّ امْرِئٍ مَا يُحْسِنُهُ", en: "The worth of every person is in what they do well.", ref: { ar: "نهج البلاغة، الحكمة ٨١", en: "Nahj al-Balagha, saying 81" }, checked: false },
+  { ar: "النَّاسُ أَعْدَاءُ مَا جَهِلُوا", en: "People are enemies of what they do not know.", ref: { ar: "نهج البلاغة، الحكمة ١٧٢", en: "Nahj al-Balagha, saying 172" }, checked: false },
+  { ar: "إِذَا تَمَّ العَقْلُ نَقَصَ الكَلَامُ", en: "When the intellect is complete, speech becomes less.", ref: { ar: "نهج البلاغة، الحكمة ٧١", en: "Nahj al-Balagha, saying 71" }, checked: false },
+  { ar: "لَا غِنَى كَالعَقْلِ، وَلَا فَقْرَ كَالجَهْلِ، وَلَا مِيرَاثَ كَالأَدَبِ، وَلَا ظَهِيرَ كَالمُشَاوَرَةِ", en: "No wealth is like intellect, no poverty like ignorance, no inheritance like good manners, and no support like consultation.", ref: { ar: "نهج البلاغة، الحكمة ٥٤", en: "Nahj al-Balagha, saying 54" }, checked: false },
+  { ar: "الفُرْصَةُ تَمُرُّ مَرَّ السَّحَابِ، فَانْتَهِزُوا فُرَصَ الخَيْرِ", en: "Opportunity passes like the clouds, so seize the chances to do good.", ref: { ar: "نهج البلاغة، الحكمة ٢١", en: "Nahj al-Balagha, saying 21" }, checked: false },
+  { ar: "الصَّبْرُ صَبْرَانِ: صَبْرٌ عَلَى مَا تَكْرَهُ، وَصَبْرٌ عَمَّا تُحِبُّ", en: "Patience is of two kinds: patience with what you dislike, and patience away from what you love.", ref: { ar: "نهج البلاغة، الحكمة ٥٥", en: "Nahj al-Balagha, saying 55" }, checked: false },
+  { ar: "أَعْجَزُ النَّاسِ مَنْ عَجَزَ عَنِ اكْتِسَابِ الإِخْوَانِ، وَأَعْجَزُ مِنْهُ مَنْ ضَيَّعَ مَنْ ظَفِرَ بِهِ مِنْهُمْ", en: "The most helpless of people is one who cannot make friends, and more helpless still is one who loses the friends they have won.", ref: { ar: "نهج البلاغة، الحكمة ١٢", en: "Nahj al-Balagha, saying 12" }, checked: false },
+  { ar: "مَنْ نَصَبَ نَفْسَهُ لِلنَّاسِ إِمَاماً فَلْيَبْدَأْ بِتَعْلِيمِ نَفْسِهِ قَبْلَ تَعْلِيمِ غَيْرِهِ", en: "Whoever sets himself up as a leader of people should begin by teaching himself before teaching others.", ref: { ar: "نهج البلاغة، الحكمة ٧٣", en: "Nahj al-Balagha, saying 73" }, checked: false },
+  { ar: "العِلْمُ خَيْرٌ مِنَ المَالِ؛ العِلْمُ يَحْرُسُكَ وَأَنْتَ تَحْرُسُ المَالَ", en: "Knowledge is better than wealth: knowledge guards you, while you must guard wealth.", ref: { ar: "نهج البلاغة، الحكمة ١٤٧", en: "Nahj al-Balagha, saying 147" }, checked: false },
+  { ar: "لَا تَكُنْ عَبْدَ غَيْرِكَ وَقَدْ جَعَلَكَ اللَّهُ حُرّاً", en: "Do not be the slave of another when God has made you free.", ref: { ar: "نهج البلاغة، الكتاب ٣١", en: "Nahj al-Balagha, letter 31" }, checked: false }
+];

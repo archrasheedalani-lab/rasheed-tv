@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A gold crescent and clock face on deep green. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp" android:height="96dp"
+    android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="#04120C" android:pathData="M0,0h96v96h-96z" />
+    <path android:fillColor="#D6AF6B" android:pathData="M48,16a32,32 0,1 0,0.01 0zM48,22a26,26 0,1 1,-0.01 0z" />
+    <path android:fillColor="#D6AF6B" android:pathData="M46,30h4v20h-4z" />
+    <path android:fillColor="#D6AF6B" android:pathData="M46,46h16v4h-16z" />
+</vector>

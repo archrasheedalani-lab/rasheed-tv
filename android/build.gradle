@@ -1,0 +1,9 @@
+plugins {
+    id "com.android.application" version "8.7.3" apply false
+}
+
+// Build output stays outside OneDrive (set ATVU_BUILD_DIR to move it), so it isn't synced.
+def outside = System.getenv("ATVU_BUILD_DIR") ?: "C:/Android/build/atvu"
+allprojects {
+    layout.buildDirectory = file("${outside}/${project.name}")
+}

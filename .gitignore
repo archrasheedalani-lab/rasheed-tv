@@ -1,0 +1,16 @@
+# Audio files are not part of the repository: see web/audio/README.md
+web/audio/*.mp3
+web/audio/*.ogg
+web/audio/*.m4a
+
+# Android build files and this computer's SDK path
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# This TV's settings from before the install (kept on this computer, not shared)
+backup/
+
+# Editor and assistant settings
+.claude/

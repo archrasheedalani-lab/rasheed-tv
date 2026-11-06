@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The 320x180 tile in the Android TV apps row: a clock face and gold rules on deep green. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp" android:height="180dp"
+    android:viewportWidth="320" android:viewportHeight="180">
+    <path android:fillColor="#04120C" android:pathData="M0,0h320v180h-320z" />
+    <path android:fillColor="#D6AF6B" android:pathData="M90,50a40,40 0,1 0,0.01 0zM90,57a33,33 0,1 1,-0.01 0z" />
+    <path android:fillColor="#D6AF6B" android:pathData="M87.5,68h5v24h-5z" />
+    <path android:fillColor="#D6AF6B" android:pathData="M87.5,87h20v5h-20z" />
+    <path android:fillColor="#D6AF6B" android:pathData="M150,72h130v6h-130z" />
+    <path android:fillColor="#C6BBA4" android:pathData="M150,90h100v4h-100z" />
+    <path android:fillColor="#C6BBA4" android:pathData="M150,102h70v4h-70z" />
+</vector>

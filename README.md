@@ -6,6 +6,18 @@ English. Written from scratch; MIT licensed.
 > Status: **v0.2.4**. A screensaver and a home screen for Android TV, with a settings panel for everything.
 > The debloat scripts are next: see [docs/PLAN.md](docs/PLAN.md).
 
+**Guide:** [Rasheed-TV-Guide.pdf](docs/Rasheed-TV-Guide.pdf), every step with pictures, to read or share.
+
+## Let Claude set it up for you
+
+On a computer on the same Wi-Fi as the TV, open the Claude desktop app (**Code** tab, a folder on this computer)
+and paste:
+
+> Set up my TV with Rasheed TV from https://github.com/archrasheedalani-lab/rasheed-tv: follow docs/SETUP-PROMPT.md step by step. You are on a computer on the same Wi-Fi as the TV.
+
+Claude follows [docs/SETUP-PROMPT.md](docs/SETUP-PROMPT.md): it asks before each change, saves the TV's settings
+first, and can undo everything later.
+
 ## Install it on your TV (no computer needed)
 
 Works on Android TV and Google TV (Android 7 or newer): Sony, TCL, Hisense, Philips, Xiaomi boxes, Chromecast

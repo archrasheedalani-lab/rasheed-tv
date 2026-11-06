@@ -14,8 +14,11 @@ with Google TV, operator boxes… Not on Samsung (Tizen) or LG (webOS) TVs.
 1. On the TV, install **Downloader** (by AFTVnews) from the Play Store.
 2. Allow it to install apps: **Settings → Apps → Security & restrictions → Unknown sources → Downloader: on**
    (on some TVs: **Settings → Privacy → Security → Install unknown apps**).
-3. Open Downloader, type the link to `RasheedTV.apk` from this repository's **Releases** page (it has the form
-   `https://github.com/<user>/rasheed-tv/releases/latest/download/RasheedTV.apk`), press **Go**, then **Install**.
+3. Open Downloader, type this link and press **Go**, then **Install**:
+
+   ```
+   https://github.com/archrasheedalani-lab/rasheed-tv/releases/latest/download/RasheedTV.apk
+   ```
 
 4. **Screensaver:** Settings → Device Preferences (or System) → **Screen saver** → **Rasheed TV screensaver**.
 5. **Settings:** open the **Rasheed TV** app: language, city, prayer method, cards, colours, photos…
